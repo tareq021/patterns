@@ -2,18 +2,24 @@ package strategy;
 
 public class FighterProduction implements WarPlaneProductionStrategy {
 
-    private final int numberOfMissiles;
+    private final int numberOfLongRangeMissiles;
+    private final int numberOfShortRangeMissiles;
     private final int numberOfPilots;
     private final boolean isStealth;
 
-    public FighterProduction(int numberOfMissiles, int numberOfPilots, boolean isStealth) {
-        this.numberOfMissiles = numberOfMissiles;
+    public FighterProduction(int numberOfLongRangeMissiles, int numberOfShortRangeMissiles, int numberOfPilots, boolean isStealth) {
+        this.numberOfLongRangeMissiles = numberOfLongRangeMissiles;
+        this.numberOfShortRangeMissiles = numberOfShortRangeMissiles;
         this.numberOfPilots = numberOfPilots;
         this.isStealth = isStealth;
     }
 
-    public int getNumberOfMissiles() {
-        return numberOfMissiles;
+    public int getNumberOfLongRangeMissiles() {
+        return numberOfLongRangeMissiles;
+    }
+
+    public int getNumberOfShortRangeMissiles() {
+        return numberOfShortRangeMissiles;
     }
 
     public int getNumberOfPilots() {

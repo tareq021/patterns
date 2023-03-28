@@ -5,6 +5,6 @@ public class StrategyPatternExample {
         Production production = new Production();
 
         production.start(new DroneProduction(6, true, true));
-        production.start(new FighterProduction(6, 2, true));
+        production.start(new FighterProduction(4, 6, 2, true));
     }
 }
