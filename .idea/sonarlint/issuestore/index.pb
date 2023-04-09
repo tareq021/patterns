@@ -12,8 +12,6 @@ Q
 !src/factory/BackEndDeveloper.java,e\f\ef9ed8eb462af9da01ed7f4c117b8e1e81c160c3
 I
 src/decorator/Cannon.java,2\6\261e0122edc0160a7d8ca2e6985e170f9df9fc73
-Z
-*src/decorator/DecoratorPatternExample.java,7\0\7070798d4626aac8b8e4793be13c8167204127f2
 J
 src/factory/Developer.java,9\5\952b656e46e25109a9c6fbe85d1bb8e5ab890b09
 V
@@ -48,3 +46,21 @@ Q
 !src/strategy/DroneProduction.java,0\2\0249a3726baa232a045faca2f0aba2cc7f350e08
 L
 src/strategy/Production.java,5\7\57d492845855051feaf6bad98dcdad62a670d689
+M
+src/template/APCAssemble.java,2\0\20788674efbe15d9bef044e485ed29e08896646b
+X
+(src/template/ArmoredVehicleAssemble.java,b\4\b4bf2c1a8d127e7b88b2d510fcf57b2af2f21941
+R
+"src/adapter/FifthGenF22Raptor.java,f\8\f8f1e7043ac93c98f06a9220c5876f050749b192
+S
+#src/strategy/FighterProduction.java,4\a\4a25803c15319ba9dfb6ade14c12a99dd3e38e32
+S
+#src/adapter/FourthGenF22Raptor.java,4\a\4a57f2dbed86862fd6e2411503ccc2e5e64aa9d3
+K
+src/adapter/GenAdapter.java,b\f\bf3d710c37b4cc4d2f9c70aa0f7ffc99e6973e97
+M
+src/template/IMVAssemble.java,4\3\43e0ae1dd1b37e76403a3f27a58ac5d657af2767
+X
+(src/strategy/StrategyPatternExample.java,d\8\d859b3aacf3b1bf6f10c10255fbc8206c26d3060
+X
+(src/template/TemplatePatternExample.java,2\7\27cc1c2da92853aabb870e2fe61105fb081f76cc
