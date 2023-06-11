@@ -5,17 +5,20 @@ import static observer.Situation.CIVILIAN;
 
 public class ObserverPatternExample {
     public static void main(String[] args) {
-        Alert alert = new Alert();
+        Observer observer = new Observer();
 
-        GroundObserver groundObserver = new GroundObserver();
-        AirborneObserver airborneObserver = new AirborneObserver();
+        GroundForce groundForce = new GroundForce();
+        AirForce airForce = new AirForce();
 
-        alert.attach(groundObserver);
-        alert.attach(airborneObserver);
+        System.out.println("======= Intruder detected in the sky ===========");
+        observer.setSituation(BOGEY);
+        observer.engage(groundForce);
+        observer.engage(airForce);
+        observer.notifyAllForces();
 
-        alert.setSituation(BOGEY);
-
-        alert.detach(airborneObserver);
-        alert.setSituation(CIVILIAN);
+        System.out.println("\n======= Civilian detected on the ground ========");
+        observer.setSituation(CIVILIAN);
+        observer.disengage(airForce);
+        observer.notifyAllForces();
     }
 }
